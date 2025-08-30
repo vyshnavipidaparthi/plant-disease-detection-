@@ -16,14 +16,16 @@ The project also includes a simple website interface for easy image upload and d
 ```
 
 Plant\_disease\_detection/
-├── notebooks/             # Jupyter notebooks for model training and Source code(python scripts)
-│   └── Train\_plant\_disease.ipynb
-├── app/                   # Website frontend (HTML/CSS/JS or React)
-│   ├── index.html
-│   ├── style.css
-│   └── app.js
-├── requirements.txt       # Python dependencies
+├── app/                   # for opening app
+│   ├── app.py
+│   ├── main.py
+├── templates/                   # Website frontend (HTML/CSS/JS or React)
+│   ├── about.html
+│   ├── disease_recognition.html
+│   └── home.html
 ├── README.md              # Project documentation
+├── requirements.txt       # Python dependencies
+├── Train_plant_disease.ipnb             # Jupyter notebooks for model training and Source code (Python scripts)
 └── .gitignore             # Ignore datasets, models, etc.
 
 
