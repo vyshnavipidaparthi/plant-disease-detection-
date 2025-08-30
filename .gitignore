@@ -1,0 +1,67 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+*.log
+
+# Virtual environment
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================
+# Jupyter Notebook
+# ============================
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# ============================
+# Data & Models (do not push large files to GitHub)
+# ============================
+data/
+datasets/
+checkpoints/
+models/
+outputs/
+logs/
+
+# ML/AI artifacts
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.ckpt
+
+# ============================
+# Large archives
+# ============================
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ============================
+# System files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Web-related
+# ============================
+node_modules/
+dist/
+build/
+*.lock
