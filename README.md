@@ -16,13 +16,9 @@ The project also includes a simple website interface for easy image upload and d
 ```
 
 Plant\_disease\_detection/
-├── notebooks/             # Jupyter notebooks for model training
+├── notebooks/             # Jupyter notebooks for model training and Source code(python scripts)
 │   └── Train\_plant\_disease.ipynb
-├── src/                   # Source code (Python scripts)
-│   ├── train.py
-│   ├── predict.py
-│   └── utils.py
-├── web/                   # Website frontend (HTML/CSS/JS or React)
+├── app/                   # Website frontend (HTML/CSS/JS or React)
 │   ├── index.html
 │   ├── style.css
 │   └── app.js
@@ -100,7 +96,6 @@ python app.py
 
 ## 🔮 Future Improvements
 
-* Deploy as a mobile app with camera support
 * Improve accuracy with ResNet/EfficientNet
 * Add support for more plant species
 
