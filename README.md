@@ -1,2 +1,14 @@
-# plant-disease-detection-
-A machine learning project for detecting plant diseases using image classification. It preprocesses plant images, trains deep learning models, and evaluates performance to support early disease detection and improve agricultural productivity.
+# 🌱 Plant Disease Detection
+
+A machine learning project that detects plant diseases from images using deep learning techniques.  
+The project also includes a simple website interface for easy image upload and disease prediction.
+
+
+## 📌 Features
+- Preprocessing and augmentation of plant leaf images
+- Deep learning model training and evaluation
+- Disease classification with accuracy metrics
+- Web interface for real-time predictions
+- Modular and extensible codebase
+
+
